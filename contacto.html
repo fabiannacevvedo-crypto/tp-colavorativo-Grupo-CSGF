@@ -1,0 +1,63 @@
+<!-- En esta sección los usuarios pueden comunciarse con los administadores por diversos motivos -->
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/contacto.css" />
+    <title>Contacto</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Coordinacion Educativa</h1>
+        <nav id="navegacion-principal">
+          <ul>
+            <li><a href="index.html">inicio</a></li>
+            <li><a href="soluciones.html">solucion</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h2>Contacto</h2>
+        <section>
+          <h3>Información de Contacto</h3>
+          <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" required /><br /><br />
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" required /><br /><br />
+
+            <label for="email">Correo Electronico:</label>
+            <input type="email" required /><br /><br />
+
+            <label for="motivo">Motivo de Consulta</label>
+            <select name="motivo" id="motivo" required>
+              <option value="">Elija una opción</option>
+              <option>Información</option>
+              <option>Reclamos</option>
+              <option>Solicitud de Permisos</option>
+              <option>Otros</option></select
+            ><br /><br />
+            <label for="mensaje">Mensaje</label>
+            <textarea
+              name="mensaje"
+              id="mensaje"
+              placeholder="Su consulta aquí, porfavor..."
+              required
+            ></textarea
+            ><br /><br />
+            <button type="submit">Enviar</button>
+          </form>
+          <br /><br />
+        </section>
+      </main>
+    </div>
+  </body>
+
+  <footer>
+    <h1>&copy; 2026</h1>
+  </footer>
+</html>
