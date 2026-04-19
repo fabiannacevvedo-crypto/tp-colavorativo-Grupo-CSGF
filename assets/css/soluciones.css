@@ -8,6 +8,9 @@ body {
     line-height: 1.6;
     background-color: #f4f6f8;
     color: #333;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
 }
 
 header {
@@ -37,10 +40,18 @@ nav a:hover {
 
 main {
     padding:2rem;
+    flex:1;
+    max-width: 900px;
+    margin:0 auto;
 }
 
 section {
     margin-bottom: 2rem;
+    padding:1.5rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 footer {
@@ -49,4 +60,13 @@ footer {
     text-align: center;
     padding: 1rem;
     font-size: 0.9rem;
+}
+nav a.active {
+    color: #ffffff;
+    text-decoration: underline;
+    border-bottom: 2px solid #ffffff;
+}
+section:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.15);
 }
