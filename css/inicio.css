@@ -9,7 +9,7 @@ body {
   background-color: #f9f9f9;
   color: #333;
 }
-.sec-beneficios {
+.sec-beneficios .beneficios-niño {
   padding: 60px;
   max-width: 1200px;
   margin: auto;
@@ -65,6 +65,52 @@ body {
 .beneficios-box4:hover {
   transform: translateY(-5px);
 }
+.beneficios-n{
+  height: 300px;
+  border-radius: 8px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease;
+}
+.beneficios-n:hover {
+  transform: translateY(-5px);
+}
+.beneficios-n2 {
+  height: 300px;
+  border-radius: 8px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease;
+}
+.beneficios-n2:hover {
+  transform: translateY(-5px);
+}
+.beneficios-n3 {
+  height: 300px;
+  border-radius: 8px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease;
+}
+.beneficios-n3:hover {
+  transform: translateY(-5px);
+}
+
+.beneficios-n4 {
+  height: 300px;
+  border-radius: 8px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease;
+}
+.beneficios-n4:hover {
+  transform: translateY(-5px);
+}
+
 .capa-osc {
   background-color: transparent;
   width: 100%;
@@ -87,6 +133,19 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
 }
 .beneficios-box4:hover .capa-osc {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.beneficios-n:hover .capa-osc {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.beneficios-n2:hover .capa-osc {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.beneficios-n3:hover .capa-osc {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.beneficios-n4:hover .capa-osc {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -128,6 +187,26 @@ body {
   transform: translateY(0);
   visibility: visible;
 }
+.beneficios-n:hover .tex-oculto {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+}
+.beneficios-n2:hover .tex-oculto {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+}
+.beneficios-n3:hover .tex-oculto {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+}
+.beneficios-n4:hover .tex-oculto {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+}
 .beneficios-box {
   background-image: url(https://imgs.search.brave.com/_6zyl-SPKObcA_60p7JNVKe8tCb0jp-DDnB-wwk5dK0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/Zm90b3MtcHJlbWl1/bS9ob21icmUtcXVl/LXVzYS1hcGxpY2Fj/aW9uLWNhbGVuZGFy/aW8tdGVsZWZvbm8t/bW92aWxfNzQ2MzE4/LTkzMC5qcGc_c2Vt/dD1haXNfaW5jb21p/bmcmdz03NDAmcT04/MA);
 }
@@ -139,6 +218,18 @@ body {
 }
 .beneficios-box4 {
   background-image: url(https://imgs.search.brave.com/ayCgWqJltjFJXr4lcOUcz7aJDFKYiBE66of0GwEM67w/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9iYW5u/ZXItZC1taW5pbWFs/aXN0YS15LWFpc2xh/ZG8tcXVlLW11ZXN0/cmEtdW4tcmVsb2ot/ZGUtYXVsYS1lc2Nv/bGFyLTM1MzA0MTUz/MC5qcGc);
+}
+.beneficios-n{
+    background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTXDkA_fKwf5_3rZJ_xu7CbpGZaTVPKsryl1F3b_e5HiyATQ5d5oP1BBv9uKSgO);
+}
+.beneficios-n2{
+    background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTOp6k0tkdkOFyBVzig_O62ZL-00Ym95y1aJzNXQAIxMUUxFQDKV8bKntSX9E0b);
+}
+.beneficios-n3{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJMD94HRm4MwOqUvJgcFrqPBrgGtxBJIZ9FdegNkBPhbRdUE_a4_l9GBXnGha4);
+}
+.beneficios-n4{
+    background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRwK7TnAu55FnInFJ6iiOQOfRC-ronDn3NxrMYn1umkNsL4qWPYTELEbRogn1iC);
 }
 
 @media (max-width: 768px) {
@@ -191,10 +282,17 @@ section {
 section h2 {
   color: #888;
   margin-bottom: 1px;
+  font-size: xx-large;
 }
 section h3 {
   color: #001f3f;
   font-family: "Times New Roman", Times, serif;
+}
+section p{
+    font-size: x-large;
+}
+section ul li{
+    font-size: x-large;
 }
 footer {
   background: #eee;
